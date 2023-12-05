@@ -1,5 +1,5 @@
 import React from "react";
-import HeadreBg from "../assets/HeadreBg.png";
+import bg from "../assets/bg.png";
 import { GoDotFill } from "react-icons/go";
 import { FaChevronRight } from "react-icons/fa6";
 
@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div
       className="bg-cover mt-[-90px] pt-[90] w-full h-[234px] sm:h-[312px] lg:h-[548px] flex items-center justify-center"
-      style={{ backgroundImage: `url(${HeadreBg})` }}
+      style={{ backgroundImage: `url(${bg})` }}
     >
       <div className="text-white items-center flex flex-col pt-[50px]">
         <h1 className="text-[24px] sm:text-[32px]  md:text-[44px] lg:lg-[64px]text-center ">CHOCOLATE BLISS AWAITS LOGIN!</h1>
