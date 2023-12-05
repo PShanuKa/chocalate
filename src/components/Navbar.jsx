@@ -17,7 +17,7 @@ const Navbar = () => {
     };
 
   return (
-    <div className="fixed top-0 left-0 right-0 ">
+    <div className="">
       <div className="flex justify-between items-center h-[90px] max-w-[1440px] mx-auto px-[24px] py-[16px] text-white">
         <div className="w-[736px] h-[42px] flex md:justify-between items-center">
           <div onClick={handleToggleMenu} className="border md:hidden border-white rounded-full p-2 mr-4">
