@@ -30,7 +30,7 @@ const Navbar = () => {
             <Link>Test4</Link>
             <Link>Test5</Link>
           </div>
-          <h1 className="text-[36px] font-bold">CHOCALATE</h1>
+          <h1 className="md:text-[36px] text-[24px] font-bold">CHOCALATE</h1>
         </div>
 
         <div className="flex w-[300px] h-[36px] items-center gap-[16px]">
@@ -64,7 +64,7 @@ const Navbar = () => {
       </div>
       <div className={`fixed  top-0 left-0 bottom-0 px-5 w-[300px] text-white bg-[#121212] pt-[60px] justify-center duration-200 ease-in-out ${toggleMenu ?"translate-x-[0%]":"translate-x-[-100%]" }`}>
         <div className="flex justify-between  items-center ">
-          <p className="text-[24px]">CHOCOLAT</p>
+          <p className="text-[24px] ">CHOCOLAT</p>
           <div onClick={handleToggleMenu} className=" border  border-white rounded-full">
             <MdClose size={24} />
           </div>
